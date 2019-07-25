@@ -27,7 +27,14 @@ var MODIFICATIONS = {
     "0-17-1": new Modification("Vanilla 0.17.1", "vanilla-0.17.1.json", false, [480, 512]),
     "0-17-1x": new Modification("Vanilla 0.17.1 - Expensive", "vanilla-0.17.1-expensive.json", false, [480, 512]),
     "017science": new Modification("0.16.51 w/ 0.17 science mod", "017science-0.16.51.json", true, [480, 512]),
-    "bobs-0-16-51": new Modification("(EXPERIMENTAL) Bob's Mods + base 0.16.51", "bobs-0.16.51.json", true, [800, 832])
+    "bobs-0-16-51": new Modification("(EXPERIMENTAL) Bob's Mods + base 0.16.51", "bobs-0.16.51.json", true, [800, 832]),
+    "0-17-59": new Modification("Vanilla 0.17.59", "vanilla-0.17.59.json", false, [480, 512]),
+    "0-17-59x": new Modification("Vanilla 0.17.59 - Expensive", "vanilla-0.17.59-expensive.json", false, [480, 512]),
+    "5Dim-0-17-59": new Modification("(testset) 5Dim 0.17.59", "5Dim-0.17.59.json", false, [640, 672]),
+    "bobs-0-17-59": new Modification("(testset) Bob 0.17.59", "bobs-0.17.59.json", false, [896, 960]),
+    "krastorio-0-17-59": new Modification("(testset) Krastorio 0.17.59", "krastorio-0.17.59.json", false, [704, 736]),
+    "SpaceExp-0-17-59": new Modification("(testset) Space Exploration 0.17.59", "SpaceExp-0.17.59.json", false, [704, 736]),
+    "yuoki-0-17-59": new Modification("(testset) Yuoki 0.17.59", "yuoki-0.17.59.json", false, [832, 896])
 }
 
 var DEFAULT_MODIFICATION = "0-16-51"

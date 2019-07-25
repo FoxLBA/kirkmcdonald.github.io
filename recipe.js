@@ -190,7 +190,7 @@ MiningRecipe.prototype.allModules = function() {
 }
 
 function ignoreRecipe(d) {
-    return d.subgroup == "empty-barrel"
+    return (d.subgroup == "empty-barrel") || (d.subgroup == "bob-empty-gas-bottle")
 }
 
 function getRecipeGraph(data) {
